@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Contact-Prodentis Clinic</title>
+      <link rel="stylesheet" type="text/css"  href="CSS/style_contact.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+      <header>
+          <img src="Photos/logo.png" alt="Logo_PC">
+        <div class="navigare">
+          <nav>
+            <ul>
+              <li><a href="index.html">Acasa</a></li>
+              <li><a href="despre.html">Despre noi</a></li>
+              <li><a href="servicii.html" onmouseover="showMenu()" onmouseout="deleteMenu()">Servicii</a></li>
+              <li><a href="noutati.html">Noutati</a></li>
+              <li><a href="echipa.html">Echipa</a></li>
+              <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="sub-menu-wrap" id="subMenu" onmouseover="showMenu()" onmouseout="deleteMenu()">
+              <div class="camp1">
+                <a href="parodontologie.html" class="sub-menu-link"><p>Parodontologia</p></a>
+              </div>
+              <hr style="width: calc(100% - 20px); margin-top: 0; margin-bottom: 0; opacity: 30%;">
+              <div class="camp1">
+                <a href="pedodontie.html" class="sub-menu-link"><p>Pedodontia</p></a>
+              </div>
+              <hr style="width: calc(100% - 20px); margin-top: 0; margin-bottom: 0; opacity: 30%;">
+              <div class="camp1">
+                <a href="preventie.html" class="sub-menu-link"><p>Preventia dentara</p></a>
+              </div>
+              <hr style="width: calc(100% - 20px); margin-top: 0; margin-bottom: 0; opacity: 30%;">
+              <div class="camp1">
+                <a href="protetica.html" class="sub-menu-link"><p>Protetica dentara</p></a>
+              </div>
+              <hr style="width: calc(100% - 20px); margin-top: 0; margin-bottom: 0; opacity: 30%;">
+              <div class="camp1">
+                <a href="estetica.html" class="sub-menu-link"><p>Estetica dentara</p></a>
+              </div>
+              <hr style="width: calc(100% - 20px); margin-top: 0; margin-bottom: 0; opacity: 30%;">
+              <div class="camp1">
+                <a href="endodontie.html" class="sub-menu-link"><p>Endodontia</p></a>
+              </div>
+              </div>
+          </nav>
+        </div>
+        <div class="search-container">
+          <form>
+            <input type="text" placeholder="Caută..." class="search-box" name="search">
+            <button type="submit" class="search-button">Caută</button>
+          </form>
+        </div>
+      </header>
+      <section>
+        <div class="box">
+            <h1>Contact</h1>
+        </div>
+        <div class="formular">
+            <h5>contact</h5>
+            <h1>Contacteaza-ne completand<br> acest formular</h1>
+            <form id="form" action="/">
+              <input id="nume" placeholder="Nume*" type="text" name="Nume" alt="nume">
+              <input id="prenume" placeholder="Prenume*" type="text" name="Prenume" alt="prenume">
+              <input id="telefon" placeholder="Telefon*" type="text" name="Telefon" alt="tel">
+              <input id="email" placeholder="Email*" type="text" name="Email" alt="email">
+              <textarea id="text" placeholder="Scrie..." type="text" alt="scrie"></textarea>
+              <button type="button">Trimite</button>
+            </form>
+        </div>
+        <div class="informatii">
+            <h2 alt="titlu">Informatii de contact</h2>
+            <div class="locatie">
+                <i class="material-icons">place</i>
+                <h2>Locatie</h2>
+                <p>Str. Nicu Albu, nr. 34,<br>Piatra Neamt, jud. Neamt, Romania</p>
+                <hr style="text-decoration: dotted; width: 100%;">
+            </div>
+            <div class="telefon">
+                <i class="fa fa-phone"></i>
+                <h2>Telefon</h2>
+                <p>0789457789</p>
+                <hr style="text-decoration: dotted; width: 100%;">
+            </div>
+            <div class="email">
+                <i class="fa fa-envelope"></i>
+                <h2>Telefon</h2>
+                <p>prodentisclinic@gmail.com</p>
+            </div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2723.895519754825!2d26.377103975641564!3d46.94409253349279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473554379cfd3ae9%3A0xc6126e62a75b6b7e!2sProdentis!5e0!3m2!1sro!2sro!4v1684880370707!5m2!1sro!2sro" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        </section>
+        <footer>
+            <p>Copyright © 2023. Toate drepturile sunt rezervate.</p>
+        </footer>
+        <script src="JAVASCRIPT/javascript-document.js"></script>
+    </body>
+</html>

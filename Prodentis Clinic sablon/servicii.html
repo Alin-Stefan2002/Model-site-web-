@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Servicii-Prodentis Clinic</title>
+      <link rel="stylesheet" type="text/css"  href="CSS/style_servicii.css">
+    </head>
+    <body>
+      <header>
+          <img src="Photos/logo.png" alt="Logo_PC">
+        <div class="navigare">
+          <nav>
+            <ul>
+              <li><a href="index.html">Acasa</a></li>
+              <li><a href="despre.html">Despre noi</a></li>
+              <li class="active"><a href="servicii.html" onmouseover="showMenu()" onmouseout="deleteMenu()">Servicii</a></li>
+              <li><a href="noutati.html">Noutati</a></li>
+              <li><a href="echipa.html">Echipa</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="sub-menu-wrap" id="subMenu" onmouseover="showMenu()" onmouseout="deleteMenu()">
+              <div class="camp1">
+                <a href="parodontologie.html" class="sub-menu-link"><p>Parodontologia</p></a>
+              </div>
+              <hr style="width: calc(100% - 20px); margin-top: 0; margin-bottom: 0; opacity: 30%;">
+              <div class="camp1">
+                <a href="pedodontie.html" class="sub-menu-link"><p>Pedodontia</p></a>
+              </div>
+              <hr style="width: calc(100% - 20px); margin-top: 0; margin-bottom: 0; opacity: 30%;">
+              <div class="camp1">
+                <a href="preventie.html" class="sub-menu-link"><p>Preventia dentara</p></a>
+              </div>
+              <hr style="width: calc(100% - 20px); margin-top: 0; margin-bottom: 0; opacity: 30%;">
+              <div class="camp1">
+                <a href="protetica.html" class="sub-menu-link"><p>Protetica dentara</p></a>
+              </div>
+              <hr style="width: calc(100% - 20px); margin-top: 0; margin-bottom: 0; opacity: 30%;">
+              <div class="camp1">
+                <a href="estetica.html" class="sub-menu-link"><p>Estetica dentara</p></a>
+              </div>
+              <hr style="width: calc(100% - 20px); margin-top: 0; margin-bottom: 0; opacity: 30%;">
+              <div class="camp1">
+                <a href="endodontie.html" class="sub-menu-link"><p>Endodontia</p></a>
+              </div>
+              </div>
+          </nav>
+        </div>
+        <div class="search-container">
+          <form>
+            <input type="text" placeholder="Caută..." class="search-box" name="search">
+            <button type="submit" class="search-button">Caută</button>
+          </form>
+        </div>
+      </header>
+      <section>
+        <div class="box">
+            <h1>Servicii</h1>
+        </div>
+        <div class="servicii_list">
+            <h5>Serviciile noastre</h5>
+            <div class="boxes">
+              <div class="lst1">
+                <ul>
+                  <li id="s1">
+                    <img src="Photos/servicii.jpg" alt="Poza1">
+                    <a href="parodontologie.html"><p>Parodontologia</p></a>
+                    <hr style=" width: 80px; margin: 0 auto;">
+                    <p alt="text1">Parodontologia este studiul sistemului specializat al țesuturilor dure și moi, care susține dinții și le menține poziția pe maxilar.</p>
+                  </li>
+                  <li id="s2">
+                      <img src="Photos/servicii.jpg" alt="Poza2">
+                      <a href="pedodontie.html"><p>Pedodontia</p></a>
+                      <hr style=" width: 80px; margin: 0 auto;">
+                      <p alt="text2">Copiii și vizita la stomatolog este o combinație care poate fi destul de greu de realizat.</p>
+                    </li>
+                    <li id="s3">
+                      <img src="Photos/servicii.jpg" alt="Poza3">
+                      <a href="preventie.html"><p>Preventia dentara</p></a>
+                      <hr style=" width: 80px; margin: 0 auto;">
+                      <p alt="text3">Această ramură a stomatologiei a apărut ca răspuns la nevoia unui zâmbet cât mai frumos.</p>
+                    </li>
+                </ul>
+              </div>
+              <div class="lst2">
+                <ul>
+                  <li id="s4">
+                    <img src="Photos/servicii.jpg" alt="Poza1">
+                    <a href="protetica.html"><p>Protetica dentara</p></a>
+                    <hr style=" width: 80px; margin: 0 auto;">
+                    <p alt="text1">Protetica dentară este domeniul stomatologiei a cărei misiune este de a oferi pacienților o dentiție echilibrată, atât din punct de vedere estetic, cât și funcțional.</p>
+                  </li>
+                  <li id="s5">
+                      <img src="Photos/servicii.jpg" alt="Poza2">
+                      <a href="estetica.html"><p>Estetica dentara</p></a>
+                      <hr style=" width: 80px; margin: 0 auto;">
+                      <p alt="text2">Copiii și vizita la stomatolog este o combinație care poate fi destul de greu de realizat.</p>
+                    </li>
+                    <li id="s6">
+                      <img src="Photos/servicii.jpg" alt="Poza3">
+                      <a href="endodontie.html"><p>Endodontia</p></a>
+                      <hr style=" width: 80px; margin: 0 auto;">
+                      <p alt="text3">Endodonția reprezinta   ramura stomatologică care se ocupă de studiul și tratamentul infecțiilor pulpei dentare și de complicațiile sale în țesutul periapical.</p>
+                    </li>
+                </ul>
+              </div>
+              <div class="lst3">
+                <ul>
+                  <li id="s7">
+                    <img src="Photos/servicii.jpg" alt="Poza1">
+                    <a href="chirurgie.html"><p>Chirurgie dentara</p></a>
+                    <hr style=" width: 80px; margin: 0 auto;">
+                    <p alt="text1">Chirurgia orală este o specialitate stomatologică axată pe diagnosticul și tratamentul bolilor, defectelor și altor probleme care afectează fața, maxilarul și gura.</p>
+                  </li>
+                  <li id="s8">
+                      <img src="Photos/servicii.jpg" alt="Poza2">
+                      <a href="ortodontie.html"><p>Ortodontie</p></a>
+                      <hr style=" width: 80px; margin: 0 auto;">
+                      <p alt="text2">Ortodonția reprezinta o parte a stomatologiei care corectează dinții  care sunt poziționați necorespunzător.</p>
+                    </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </section>
+     <footer>
+        <p>Copyright © 2023. Toate drepturile sunt rezervate.</p>
+     </footer>
+     <script src="JAVASCRIPT/javascript-document.js"></script>
+    </body>
+</html>

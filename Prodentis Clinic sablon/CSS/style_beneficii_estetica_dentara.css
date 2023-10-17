@@ -1,0 +1,223 @@
+.box{
+    background-image:url(../Photos/bk2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: -1;
+}
+
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #ffffff90;
+    width: 100%;
+    height: 120px;
+}
+
+header img{
+    margin-left: 45px;
+    margin-top: 10px;
+    height: 100px;
+    width: 320px;
+}
+
+.search-container {
+   position: absolute;
+   top:35%;
+   left:75%;
+  }
+  
+  .search-box {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    opacity: 80%;
+  }
+
+  .search-button {
+    padding: 10px 20px;
+    background-color:#007acc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.navigare nav{
+    float: right;
+    margin-top: -80px;
+    margin-right: 360px;
+}
+
+.navigare nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.navigare nav ul li a{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    text-decoration: none;
+    color:black;
+}
+
+.navigare nav ul li a:hover{
+    color:#007acc;
+    transition: 0.5s;
+}
+
+.active a{
+    color:#007acc !important;
+}
+
+.sub-menu-wrap{
+    width: 200px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    background-color: white;
+    position: absolute;
+    top:80%;
+    left:46%;
+}
+
+.sub-menu-wrap.open-menu{
+    max-height: 290px;
+}
+
+.sub-menu-wrap.close-menu{
+    max-height: 0px;
+    transition-delay: 0.4s;
+}
+
+.camp1{
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    width: 100%;
+    height: 45px;
+    margin: 0;
+}
+
+.sub-menu-link{
+    text-decoration: none;
+}
+
+.sub-menu-link p{
+    color: black;
+    margin-left: 10px;
+    margin-top: 12px;
+    opacity: 80%;
+    transition: 0.5s;
+}
+
+.sub-menu-link p:hover{
+    color: #ccc;
+    transform: translateX(5px);
+    transition: 0.5s;
+}
+
+
+.articol{
+    position: absolute;
+    top:25%;
+}
+
+.articol h1{
+    margin-left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+
+.articol pre{
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    opacity: 80%;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.articol pre span[alt="t1"]{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.container{
+    margin-top: 1000px;
+}
+
+.container ul{
+    margin-left: 60px;
+}
+
+.container ul li{
+    display: inline-block;
+    padding-left: 15px;
+    opacity: 80%;
+}
+
+.container ul p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.recomandari{
+    display: flex;
+    justify-content: center;
+}
+
+.recomandari ul li{
+    display: inline-block;
+}
+
+.recomandari ul li a{
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    opacity: 80%;
+    transition: 0.5s;
+}
+
+.recomandari ul li a:hover{
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    transition: 0.5s;
+}
+
+.recomandari .recomandare2{
+    padding-left: 50px;
+}
+
+.recomandari .recomandare1{
+    padding-right: 50px;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #343a40;
+    position: absolute;
+    top:220%;
+    left: 0;
+}
+
+footer p{
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+    margin-top: 70px;
+}

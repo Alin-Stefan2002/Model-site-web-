@@ -1,0 +1,567 @@
+.box{
+    background-image:url(../Photos/bk1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: -1;
+}
+
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #ffffff90;
+    width: 100%;
+    height: 120px;
+}
+
+header img{
+    margin-left: 45px;
+    margin-top: 10px;
+    height: 100px;
+    width: 320px;
+}
+
+.search-container {
+   position: absolute;
+   top:35%;
+   left:75%;
+  }
+  
+  .search-box {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    opacity: 80%;
+  }
+
+  .search-button {
+    padding: 10px 20px;
+    background-color:#007acc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.navigare nav{
+    float: right;
+    margin-top: -80px;
+    margin-right: 360px;
+}
+
+.navigare nav ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.navigare nav ul li a{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    text-decoration: none;
+    color:black;
+}
+
+.navigare nav ul li a:hover{
+    color:#007acc;
+    transition: 0.5s;
+}
+
+.active a{
+    color:#007acc !important;
+}
+
+.sub-menu-wrap{
+    width: 200px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    background-color: white;
+    position: absolute;
+    top:80%;
+    left:46%;
+}
+
+.sub-menu-wrap.open-menu{
+    max-height: 290px;
+}
+
+.sub-menu-wrap.close-menu{
+    max-height: 0px;
+    transition-delay: 0.4s;
+}
+
+.camp1{
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    width: 100%;
+    height: 45px;
+    margin: 0;
+}
+
+.sub-menu-link{
+    text-decoration: none;
+}
+
+.sub-menu-link p{
+    color: black;
+    margin-left: 10px;
+    margin-top: 12px;
+    opacity: 80%;
+    transition: 0.5s;
+}
+
+.sub-menu-link p:hover{
+    color: #ccc;
+    transform: translateX(5px);
+    transition: 0.5s;
+}
+
+
+.citat-container{
+    background-color: white;
+    width: 1200px;
+    height: 200px;
+    margin-left: 5%;
+    margin-top: 25%;
+    opacity: 50%;
+}
+
+.citat p{
+    position: absolute;
+    top:53%;
+    left: 10%;
+    font-size: 40px;
+    font-weight: bold;
+    color:black;
+}
+
+.container{
+    position: absolute;
+    top:100%;
+    left: 0%;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+}
+
+.container .sectiune1{
+    margin-top: 100px;
+    margin-left: 75px;
+}
+
+.container .sectiune1 h4{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color:#007acc;
+    position: absolute;
+    position: absolute;
+    top:5% !important;
+}
+
+.container .sectiune1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.container .sectiune1 img{
+    position: absolute;
+    top:60%;
+    left:10%;
+}
+
+.container .sectiune2{
+    position: absolute;
+    top:20%;
+    left:45%;
+}
+
+.container .sectiune2 p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 670px;
+    height: 250px;
+    color: grey;
+    border-left: 1px solid grey;
+    padding-left: 130px;
+}
+
+.container1{
+    background-color: #e6edfa;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 650px;
+    position: absolute;
+    top:170%;
+    left:0;
+}
+
+.container1 img{
+    position: absolute;
+    top:0%;
+    left: 2%;
+    width: 560px;
+    height: 650px;
+}
+
+.container1_1{
+    position: absolute;
+    left:45%;
+    top:22%;
+}
+
+.container1 h4{
+    color: #007acc;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top:3%;
+    left:49%;
+}
+
+.container1 h1{
+    position: absolute;
+    top: 9%;
+    left:49%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.container1 .container1_1 ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 20px;  
+}
+
+.container1 .container1_1 ul li a{
+    text-decoration: none;
+}
+
+.container1 .container1_1 .parodontologie{
+    box-sizing: border-box;
+    width: 180px;
+    height: 190px;
+    background-color: white;
+    border-radius: 3%;
+}
+
+.container1 .container1_1 .parodontologie img[alt="Parodontologie"]{
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.container1 .container1_1 .parodontologie p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, 
+    sans-serif;
+    font-weight: 600;
+    color: black;
+    position: relative;
+    top:130px;
+    text-align: center;
+}
+
+.container1 .container1_1 .pedodontie{
+    box-sizing: border-box;
+    width: 180px;
+    height: 190px;
+    background-color: white;
+    border-radius: 3%;
+}
+
+.container1 .container1_1 .pedodontie img[alt="Pedodontie"]{
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 295px;
+}
+
+.container1 .container1_1 .pedodontie p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, 
+    sans-serif;
+    font-weight: 600;
+    color: black;
+    position: relative;
+    top:130px;
+    text-align: center;
+}
+
+.container1 .container1_1 .preventie{
+    box-sizing: border-box;
+    width: 180px;
+    height: 190px;
+    background-color: white;
+    border-radius: 3%;
+}
+
+.container1 .container1_1 .preventie img[alt="Preventie"]{
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 500px;
+}
+
+.container1 .container1_1 .preventie p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, 
+    sans-serif;
+    font-weight: 600;
+    color: black;
+    position: relative;
+    top:130px;
+    text-align: center;
+}
+
+.container1_2{
+    position: absolute;
+    top:55%;
+    left: 45%;
+}
+
+.container1 .container1_2 ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 20px;  
+}
+
+.container1 .container1_2 ul li a{
+    text-decoration: none;
+}
+
+.container1 .container1_2 .chirurgie{
+    box-sizing: border-box;
+    width: 180px;
+    height: 190px;
+    background-color: white;
+    border-radius: 3%;
+}
+
+.container1 .container1_2 .chirurgie img[alt="Chirurgie"]{
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.container1 .container1_2 .chirurgie p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, 
+    sans-serif;
+    font-weight: 600;
+    color: black;
+    position: relative;
+    top:130px;
+    text-align: center;
+}
+
+.container1 .container1_2 .estetica{
+    box-sizing: border-box;
+    width: 180px;
+    height: 190px;
+    background-color: white;
+    border-radius: 3%;
+}
+
+.container1 .container1_2 .estetica img[alt="Estetica_dentara"]{
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 295px;
+}
+
+.container1 .container1_2 .estetica p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, 
+    sans-serif;
+    font-weight: 600;
+    color: black;
+    position: relative;
+    top:130px;
+    text-align: center;
+}
+
+.container1 .container1_2 .protetica{
+    box-sizing: border-box;
+    width: 180px;
+    height: 190px;
+    background-color: white;
+    border-radius: 3%;
+}
+
+.container1 .container1_2 .protetica img[alt="Protetica_dentara"]{
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 500px;
+}
+
+.container1 .container1_2 .protetica p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, 
+    sans-serif;
+    font-weight: 600;
+    color: black;
+    position: relative;
+    top:130px;
+    text-align: center;
+}
+
+.container1 button{
+    width: 150px;
+    height: 50px;
+    background-color: #007acc;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top: 92%;
+    left:49.5%;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 3%;
+}
+
+.cifre{
+    position: absolute;
+    top:280%;
+    left: 0;;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.cifre h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.cifre img{
+    width: 100%;
+    height: 300px;
+}
+
+.cifre .coperta{
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top:26.9%;
+    opacity: 50%;
+}
+
+.cifre .list ul{
+    position: absolute;
+    top:55%;
+    left: 0;
+}
+
+.cifre .list ul li{
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cifre .list [alt="c1"]{
+    border-right: 1px solid grey;
+    padding-right: 70px;
+    padding-left: 110px;
+}
+
+.cifre .list [alt="c2"]{
+    border-right: 1px solid grey;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.cifre .list [alt="c3"]{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+article{
+    position: absolute;
+    top:370%;
+    left:0;
+    width: 100%;
+}
+
+.programare img{
+    height: 500px;
+    width: 50%;
+}
+
+.programare .contact{
+    float: right;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.programare .contact h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.programare .contact .contact1{
+    padding-left: 75px;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.programare .contact .program{
+    padding-left: 75px;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.programare .contact .program li{
+    padding-top: 10px;
+}
+
+.programare button{
+    background-color: #007acc;
+    color:white;
+    padding: 15px 20px;
+    border:1px solid transparent;
+    border-radius: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top:85%;
+    left: 55%;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #343a40;
+    position: absolute;
+    top:460%;
+    left: 0;
+}
+
+footer p{
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:grey;
+    margin-top: 70px;
+}

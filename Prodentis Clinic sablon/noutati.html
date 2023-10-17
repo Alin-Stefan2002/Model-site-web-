@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <title>Noutati-Prodentis Clinic</title>
+      <link rel="stylesheet" type="text/css"  href="CSS/style_noutati.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+      <header>
+          <img src="Photos/logo.png" alt="Logo_PC">
+        <div class="navigare">
+          <nav>
+            <ul>
+              <li><a href="index.html">Acasa</a></li>
+              <li><a href="despre.html">Despre noi</a></li>
+              <li><a href="servicii.html" onmouseover="showMenu()" onmouseout="deleteMenu()">Servicii</a></li>
+              <li class="active"><a href="noutati.html">Noutati</a></li>
+              <li><a href="echipa.html">Echipa</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="sub-menu-wrap" id="subMenu" onmouseover="showMenu()" onmouseout="deleteMenu()">
+              <div class="camp1">
+                <a href="parodontologie.html" class="sub-menu-link"><p>Parodontologia</p></a>
+              </div>
+              <hr style="width: calc(100% - 20px); margin-top: 0; margin-bottom: 0; opacity: 30%;">
+              <div class="camp1">
+                <a href="pedodontie.html" class="sub-menu-link"><p>Pedodontia</p></a>
+              </div>
+              <hr style="width: calc(100% - 20px); margin-top: 0; margin-bottom: 0; opacity: 30%;">
+              <div class="camp1">
+                <a href="preventie.html" class="sub-menu-link"><p>Preventia dentara</p></a>
+              </div>
+              <hr style="width: calc(100% - 20px); margin-top: 0; margin-bottom: 0; opacity: 30%;">
+              <div class="camp1">
+                <a href="protetica.html" class="sub-menu-link"><p>Protetica dentara</p></a>
+              </div>
+              <hr style="width: calc(100% - 20px); margin-top: 0; margin-bottom: 0; opacity: 30%;">
+              <div class="camp1">
+                <a href="estetica.html" class="sub-menu-link"><p>Estetica dentara</p></a>
+              </div>
+              <hr style="width: calc(100% - 20px); margin-top: 0; margin-bottom: 0; opacity: 30%;">
+              <div class="camp1">
+                <a href="endodontie.html" class="sub-menu-link"><p>Endodontia</p></a>
+              </div>
+              </div>
+          </nav>
+        </div>
+        <div class="search-container">
+          <form>
+            <input type="text" placeholder="Caută..." class="search-box" name="search">
+            <button type="submit" class="search-button">Caută</button>
+          </form>
+        </div>
+      </header>
+      <section>
+        <div class="box">
+            <h1>Noutati</h1>
+        </div>
+        <div class="noutati_list">
+            <h5>Fi la curent cu toate noutatile</h5>
+            <div class="boxes">
+              <div class="lst1">
+                <ul>
+                  <li id="s1">
+                    <div class="container1">
+                        <div class="link1">
+                                <img src="Photos/afis1.jpg" alt="Poza1">  
+                                <div class="title" alt="k1">
+                                    <h2>Beneficiile oferite de estetica<br> dentara</h2>  
+                                </div>
+                        </div>
+                        <div class="text1">
+                            <p>Estetica dentară reprezintă unul dintre principalii factori care influențează nivelul încrederii în propria persoană. Cei mai mulți oameni apreciază un zâmbet frumos pentru valoarea lui estetică și starea de spirit pe care o induce.</p>
+                        </div> 
+                        <div class="info1">
+                            <i class="fa fa-file-text-o" style="font-size:24px"></i>
+                            <a href="beneficii_estetica_dentara.html">Afla mai multe</a>
+                        </div>
+                    </div>
+                  </li>
+                  <li id="s2">
+                    <div class="container2">
+                      <div class="link2">
+                              <img src="Photos/afis2.jpg" alt="Poza2">  
+                              <div class="title" alt="k2">
+                                  <h2>Caria dentara si consecintele netratarii acesteia</h2>  
+                              </div>
+                      </div>
+                      <div class="text2">
+                          <p>Caria dentară este o afectare a țesuturilor dure dentare asociată cu demineralizarea și distrugerea treptată a smalțului și a dentinei, formandu-se astfel o cavitate în dinte. În absența tratamentului, această cavitate se mărește în dimensiuni.</p>
+                      </div> 
+                      <div class="info2">
+                          <i class="fa fa-file-text-o" style="font-size:24px"></i>
+                          <a href="carie_dentara.html">Afla mai multe</a>
+                      </div>
+                  </div>
+                    </li>
+                    <li id="s3">
+                      <div class="container3">
+                        <div class="link3">
+                                <img src="Photos/afis3.jpg" alt="Poza3">  
+                                <div class="title" alt="k3">
+                                    <h2>Aparatul dentar si avantajele purtarii acestuia</h2>  
+                                </div>
+                        </div>
+                        <div class="text3">
+                            <p>În prezent, una dintre cele mai des întâlnite proceduri este cea a echilibrării poziției dinților prin intermediul unui aparat dentar. Acesta reprezintă de fapt un tratament ortodontic pentru îndreptarea dinților care oferă în final un zâmbet mult mai frumos. </p>
+                        </div> 
+                        <div class="info3">
+                            <i class="fa fa-file-text-o" style="font-size:24px"></i>
+                            <a href="aparatul_dentar.html">Afla mai multe</a>
+                        </div>
+                    </div>
+                    </li>
+                </ul>
+              </div>
+      </section>
+      <footer>
+        <p>Copyright © 2023. Toate drepturile sunt rezervate.</p>
+      </footer>
+    <script src="JAVASCRIPT/javascript-document.js"></script>
+    </body>
+</html>
